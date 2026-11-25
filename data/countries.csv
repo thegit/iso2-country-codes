@@ -1,0 +1,250 @@
+alpha2,alpha3,numeric,name,capital,dialling_codes,tlds,currencies,wikidata
+AF,AFG,004,Afghanistan,Kabul,+93,.af,AFN,Q889
+AL,ALB,008,Albania,Tirana,+355,.al,ALL,Q222
+DZ,DZA,012,Algeria,Algiers,+213,.dz,DZD,Q262
+AS,ASM,016,American Samoa,Pago Pago,+1684,.as,USD,Q16641
+AD,AND,020,Andorra,Andorra la Vella,+376,.ad,EUR,Q228
+AO,AGO,024,Angola,Luanda,+244,.ao,AOA,Q916
+AI,AIA,660,Anguilla,The Valley,+1264,.ai,XCD,Q25228
+AQ,ATA,010,Antarctic Treaty area,,+672,,,Q10372207
+AG,ATG,028,Antigua and Barbuda,St. John's,+1268,.ag,XCD,Q781
+AR,ARG,032,Argentina,Buenos Aires,+54,.ar,ARS,Q414
+AM,ARM,051,Armenia,Yerevan,+374,.am .հայ,AMD,Q399
+AW,ABW,533,Aruba,Oranjestad,+297,.aw,AWG,Q21203
+AU,AUS,036,Australia,Canberra,+61,.au,AUD,Q408
+AT,AUT,040,Austria,Vienna,+43,.at,EUR,Q40
+AZ,AZE,031,Azerbaijan,Baku,+994,.az,AZN,Q227
+BH,BHR,048,Bahrain,Manama,+973,.bh,BHD,Q398
+BD,BGD,050,Bangladesh,Dhaka,+880,.bd .বাংলা,BDT,Q902
+BB,BRB,052,Barbados,Bridgetown,+1246,.bb,BBD,Q244
+BY,BLR,112,Belarus,Minsk,+375,.by .бел,BYN,Q184
+BE,BEL,056,Belgium,Brussels,+32,.be,EUR,Q31
+BZ,BLZ,084,Belize,Belmopan,+501,.bz,BZD,Q242
+BJ,BEN,204,Benin,Porto-Novo,+229,.bj,XOF,Q962
+BM,BMU,060,Bermuda,Hamilton,+1441,.bm,BMD,Q23635
+BT,BTN,064,Bhutan,Thimphu,+975,.bt,BTN,Q917
+BO,BOL,068,Bolivia,La Paz,+591,.bo,BOB,Q750
+BA,BIH,070,Bosnia and Herzegovina,Sarajevo,+387,.ba,BAM,Q225
+BW,BWA,072,Botswana,Gaborone,+267,.bw,BWP,Q963
+BV,BVT,074,Bouvet Island,,,.bv,,Q23408
+BR,BRA,076,Brazil,Brasília,+55,.br,BRL,Q155
+IO,IOT,086,British Indian Ocean Territory,Diego Garcia,+246,.io,GBP USD,Q43448
+VG,VGB,092,British Virgin Islands,Road Town,+1284,.vg,USD,Q25305
+BN,BRN,096,Brunei,Bandar Seri Begawan,+673,.bn,BND,Q921
+BG,BGR,100,Bulgaria,Sofia,+359,.bg .бг,EUR,Q219
+BF,BFA,854,Burkina Faso,Ouagadougou,+226,.bf,XOF,Q965
+BI,BDI,108,Burundi,Gitega,+257,.bi,BIF,Q967
+KH,KHM,116,Cambodia,Phnom Penh,+855,.kh,KHR,Q424
+CM,CMR,120,Cameroon,Yaoundé,+237,.cm,XAF,Q1009
+CA,CAN,124,Canada,Ottawa,+1,.ca,CAD,Q16
+CV,CPV,132,Cape Verde,Praia,+238,.cv,CVE,Q1011
+BQ,BES,535,Caribbean Netherlands,,+599,.bq .nl,USD,Q27561
+KY,CYM,136,Cayman Islands,George Town,+1345,.ky,KYD,Q5785
+CF,CAF,140,Central African Republic,Bangui,+236,.cf,XAF,Q929
+TD,TCD,148,Chad,N'Djamena,+235,.td,XAF,Q657
+CL,CHL,152,Chile,Santiago,+56,.cl,CLP,Q298
+CX,CXR,162,Christmas Island,Flying Fish Cove,,.cx,AUD,Q31063
+CC,CCK,166,Cocos (Keeling) Islands,West Island,+61891,.cc,AUD,Q36004
+CO,COL,170,Colombia,Bogotá,+57,.co,COP,Q739
+KM,COM,174,Comoros,Moroni,+269,.km,KMF,Q970
+CK,COK,184,Cook Islands,Avarua,+682,.ck,NZD,Q26988
+CR,CRI,188,Costa Rica,San José,+506,.cr,CRC,Q800
+HR,HRV,191,Croatia,Zagreb,+385,.hr,EUR,Q224
+CU,CUB,192,Cuba,Havana,+53,.cu,CUP,Q241
+CW,CUW,531,Curaçao,Willemstad,+5999,.cw,XCG,Q25279
+CY,CYP,196,Cyprus,Nicosia,+357,.cy,EUR,Q229
+CZ,CZE,203,Czech Republic,Prague,+420,.cz,203 CZK,Q213
+CD,COD,180,Democratic Republic of the Congo,Kinshasa,+243,.cd,CDF,Q974
+DK,DNK,208,Denmark,Copenhagen,+45,.dk,DKK,Q35
+DJ,DJI,262,Djibouti,Djibouti,+253,.dj,DJF,Q977
+DM,DMA,212,Dominica,Roseau,+1767,.dm,XCD,Q784
+DO,DOM,214,Dominican Republic,Santo Domingo,+1809 +1829 +1849,.do,DOP,Q786
+EC,ECU,218,Ecuador,Quito,+593,.ec,USD,Q736
+EG,EGY,818,Egypt,Cairo,+20,.eg .مصر,EGP,Q79
+SV,SLV,222,El Salvador,San Salvador,+503,.sv,USD,Q792
+GQ,GNQ,226,Equatorial Guinea,Ciudad de la Paz,+240,.gq,XAF,Q983
+ER,ERI,232,Eritrea,Asmara,+291,.er,ERN,Q986
+EE,EST,233,Estonia,Tallinn,+372,.ee,EUR,Q191
+SZ,SWZ,748,Eswatini,Mbabane,+268,.sz,SZL,Q1050
+ET,ETH,231,Ethiopia,Addis Ababa,+251,.et,ETB,Q115
+FK,FLK,238,Falkland Islands,Stanley,+500,.fk,FKP,Q9648
+FO,FRO,234,Faroe Islands,Tórshavn,+298,.fo,,Q4628
+FM,FSM,583,Federated States of Micronesia,Palikir,+691,.fm,USD,Q702
+FJ,FJI,242,Fiji,Suva,+679,.fj,FJD,Q712
+FI,FIN,246,Finland,Helsinki,+358,.fi,EUR,Q33
+FR,FRA,250,France,Paris,+33,.fr,EUR XPF,Q142
+GF,GUF,254,French Guiana,Cayenne,+594,.gf,EUR,Q3769
+PF,PYF,258,French Polynesia,Papeete,+689,.pf,XPF,Q30971
+TF,ATF,260,French Southern and Antarctic Lands,Port-aux-Français,,.tf,EUR,Q129003
+GA,GAB,266,Gabon,Libreville,+241,.ga,XAF,Q1000
+GE,GEO,268,Georgia,Tbilisi,+995,.ge,GEL,Q230
+DE,DEU,276,Germany,Berlin,+49,.de,EUR,Q183
+GH,GHA,288,Ghana,Accra,+233,.gh,GHS,Q117
+GI,GIB,292,Gibraltar,Gibraltar,+350,.gi,GIP,Q1410
+GR,GRC,300,Greece,Athens,+30,,EUR,Q41
+GL,GRL,304,Greenland,Nuuk,+299,.gl,DKK,Q223
+GD,GRD,308,Grenada,St. George's,+1473,.gd,XCD,Q769
+GP,GLP,312,Guadeloupe,Basse-Terre,+590,.gp,EUR,Q17012
+GU,GUM,316,Guam,Hagåtña,+1671,.gu,USD,Q16635
+GT,GTM,320,Guatemala,Guatemala City,+502,.gt,GTQ,Q774
+GG,GGY,831,Guernsey,Saint Peter Port,+44,.gg,GBP,Q25230
+GN,GIN,324,Guinea,Conakry,+224,.gn,GNF,Q1006
+GW,GNB,624,Guinea-Bissau,Bissau,+245,.gw,XOF,Q1007
+GY,GUY,328,Guyana,Georgetown,+592,.gy,GYD,Q734
+HT,HTI,332,Haiti,Port-au-Prince,+509,.ht,HTG,Q790
+HM,HMD,334,Heard Island and McDonald Islands,,,.hm,,Q131198
+HN,HND,340,Honduras,Tegucigalpa,+504,.hn,HNL,Q783
+HK,HKG,344,Hong Kong,,+852,.hk,HKD,Q8646
+HU,HUN,348,Hungary,Budapest,+36,.hu,HUF,Q28
+IS,ISL,352,Iceland,Reykjavík,+354,.is,ISK,Q189
+IN,IND,356,India,New Delhi,+91,.in .بھارت .भारत .ভারত .ভাৰত .ਭਾਰਤ .ભારત .ଭାରତ .இந்தியா .భారత్ .ಭಾರತ .ഭാരതം,INR,Q668
+ID,IDN,360,Indonesia,Jakarta,+62,.id,IDR,Q252
+IR,IRN,364,Iran,Tehran,+98,.ir ایران.,IRR,Q794
+IQ,IRQ,368,Iraq,Baghdad,+964,.iq,IQD,Q796
+IE,IRL,372,Ireland,Dublin,+353,.ie,EUR,Q27
+IM,IMN,833,Isle of Man,Douglas,+44,.im,GBP,Q9676
+IL,ISR,376,Israel,Jerusalem,+972,.il ישראל.,ILS,Q801
+IT,ITA,380,Italy,Rome,+39,.it,EUR,Q38
+CI,CIV,384,Ivory Coast,Yamoussoukro,+225,.ci,XOF,Q1008
+JM,JAM,388,Jamaica,Kingston,+1876,.jm,JMD,Q766
+JP,JPN,392,Japan,Tokyo,+81,.jp,JPY,Q17
+JE,JEY,832,Jersey,Saint Helier,+44,.je,GBP,Q785
+JO,JOR,400,Jordan,Amman,+962,.jo .الاردن,JOD,Q810
+KZ,KAZ,398,Kazakhstan,Astana,+7,.kz .қаз,KZT,Q232
+KE,KEN,404,Kenya,Nairobi,+254,.ke,KES,Q114
+NL,NLD,528,Kingdom of the Netherlands,Amsterdam,+31,.nl,AWG EUR USD XCG,Q29999
+KI,KIR,296,Kiribati,South Tarawa,+686,.ki,AUD,Q710
+KW,KWT,414,Kuwait,Kuwait City,+965,.kw,KWD,Q817
+KG,KGZ,417,Kyrgyzstan,Bishkek,+996,.kg,KGS,Q813
+LA,LAO,418,Laos,Vientiane,+856,.la,LAK,Q819
+LV,LVA,428,Latvia,Riga,+371,.lv,EUR,Q211
+LB,LBN,422,Lebanon,Beirut,+961,.lb,LBP,Q822
+LS,LSO,426,Lesotho,Maseru,+266,.ls,LSL ZAR,Q1013
+LR,LBR,430,Liberia,Monrovia,+231,.lr,LRD,Q1014
+LY,LBY,434,Libya,Tripoli,+218,.ly,LYD,Q1016
+LI,LIE,438,Liechtenstein,Vaduz,+423,.li,CHF,Q347
+LT,LTU,440,Lithuania,Vilnius,+370,.lt,EUR,Q37
+LU,LUX,442,Luxembourg,Luxembourg,+352,.lu,EUR,Q32
+MO,MAC,446,Macau,,+853,.mo,HKD MOP,Q14773
+MG,MDG,450,Madagascar,Antananarivo,+261,.mg,MGA,Q1019
+MW,MWI,454,Malawi,Lilongwe,+265,.mw,MWK,Q1020
+MY,MYS,458,Malaysia,Kuala Lumpur,+60,.my,MYR,Q833
+MV,MDV,462,Maldives,Malé,+960,.mv,MVR,Q826
+ML,MLI,466,Mali,Bamako,+223,.ml,XOF,Q912
+MT,MLT,470,Malta,Valletta,+356,.mt,EUR,Q233
+MH,MHL,584,Marshall Islands,Majuro,+692,.mh,USD,Q709
+MQ,MTQ,474,Martinique,Fort-de-France,+596,.mq,EUR,Q17054
+MR,MRT,478,Mauritania,Nouakchott,+222,.mr,MRU,Q1025
+MU,MUS,480,Mauritius,Port Louis,+230,.mu,MUR,Q1027
+YT,MYT,175,Mayotte,Mamoudzou,+262,.yt,EUR,Q17063
+MX,MEX,484,Mexico,Mexico City,+52,.mx,MXN,Q96
+MD,MDA,498,Moldova,Chișinău,+373,.md,MDL,Q217
+MC,MCO,492,Monaco,Monaco,+377,.mc,EUR,Q235
+MN,MNG,496,Mongolia,Ulaanbaatar,+976,.mn,MNT,Q711
+ME,MNE,499,Montenegro,Podgorica,+382,.me,EUR,Q236
+MS,MSR,500,Montserrat,Brades,+1664,.ms,XCD,Q13353
+MA,MAR,504,Morocco,Rabat,+212,.ma,MAD,Q1028
+MZ,MOZ,508,Mozambique,Maputo,+258,.mz,MZN,Q1029
+MM,MMR,104,Myanmar,Naypyidaw,+95,.mm,MMK,Q836
+NA,NAM,516,Namibia,Windhoek,+264,.na,NAD ZAR,Q1030
+NR,NRU,520,Nauru,Yaren District,+674,.nr,AUD,Q697
+NP,NPL,524,Nepal,Kathmandu,+977,.np,NPR,Q837
+NC,NCL,540,New Caledonia,Nouméa,+687,.nc,XPF,Q33788
+NZ,NZL,554,New Zealand,Wellington,+64,.nz,NZD,Q664
+NI,NIC,558,Nicaragua,Managua,+505,.ni,NIO,Q811
+NE,NER,562,Niger,Niamey,+227,.ne,XOF,Q1032
+NG,NGA,566,Nigeria,Abuja,+234,.ng,NGN,Q1033
+NU,NIU,570,Niue,Alofi,+683,.nu,NZD,Q34020
+NF,NFK,574,Norfolk Island,Kingston,+6723,.nf,AUD,Q31057
+KP,PRK,408,North Korea,Pyongyang,+850,.kp,KPW,Q423
+MK,MKD,807,North Macedonia,Skopje,+389,.mk,MKD,Q221
+MP,MNP,580,Northern Mariana Islands,Saipan,+1670,.mp,USD,Q16644
+NO,NOR,578,Norway,,+47,.no,NOK,Q20
+OM,OMN,512,Oman,Muscat,+968,.om,OMR,Q842
+PK,PAK,586,Pakistan,Islamabad,+92,.pk,PKR,Q843
+PW,PLW,585,Palau,Ngerulmud,+680,.pw,USD,Q695
+PS,PSE,275,Palestine,Ramallah,+970,.ps,ILS,Q219060
+PA,PAN,591,Panama,Panama City,+507,.pa,PAB USD,Q804
+PG,PNG,598,Papua New Guinea,Port Moresby,+675,.pg,PGK,Q691
+PY,PRY,600,Paraguay,Asunción,+595,.py,PYG,Q733
+CN,CHN,156,People's Republic of China,Beijing,+86,.cn .中国 .中國 .公司,CNY,Q148
+PE,PER,604,Peru,Lima,+51,.pe,PEN,Q419
+PH,PHL,608,Philippines,Manila,+63,.ph,PHP,Q928
+PN,PCN,612,Pitcairn Islands,Adamstown,+64,.pn,NZD,Q35672
+PL,POL,616,Poland,Warsaw,+48,.pl,PLN PLZ,Q36
+PT,PRT,620,Portugal,Lisbon,+351,.pt,EUR,Q45
+PR,PRI,630,Puerto Rico,San Juan,+1787 +1939,.pr,USD,Q1183
+QA,QAT,634,Qatar,Doha,+974,.qa,QAR,Q846
+CG,COG,178,Republic of the Congo,Brazzaville,+242,.cg,XAF,Q971
+RO,ROU,642,Romania,Bucharest,+40,.ro,RON,Q218
+RU,RUS,643,Russia,Moscow,+7,.ru .su .рус .рф,RUB,Q159
+RW,RWA,646,Rwanda,Kigali,+250,.rw,RWF,Q1037
+RE,REU,638,Réunion,Saint-Denis,+262,.re,EUR,Q17070
+BL,BLM,652,Saint Barthélemy,Gustavia,+590,.bl,EUR,Q25362
+SH,SHN,654,"Saint Helena, Ascension and Tristan da Cunha",Jamestown,+247 +27 +290,,GBP SHP,Q192184
+KN,KNA,659,Saint Kitts and Nevis,Basseterre,+1869,.kn,XCD,Q763
+LC,LCA,662,Saint Lucia,Castries,+1758,.lc,XCD,Q760
+PM,SPM,666,Saint Pierre and Miquelon,Saint-Pierre,+508,.fr .pm,EUR,Q34617
+VC,VCT,670,Saint Vincent and the Grenadines,Kingstown,+1784,.vc,XCD,Q757
+MF,MAF,663,Saint-Martin,Marigot,+590,.mf,EUR,Q126125
+WS,WSM,882,Samoa,Apia,+685,.ws,WST,Q683
+SM,SMR,674,San Marino,San Marino,+378,.sm,EUR,Q238
+SA,SAU,682,Saudi Arabia,Riyadh,+966,.sa AlSaudiah,SAR,Q851
+SN,SEN,686,Senegal,Dakar,+221,.sn,XOF,Q1041
+RS,SRB,688,Serbia,Belgrade,+381,.rs .срб,RSD,Q403
+SC,SYC,690,Seychelles,Victoria,+248,.sc,SCR,Q1042
+SL,SLE,694,Sierra Leone,Freetown,+232,.sl,SLE,Q1044
+SG,SGP,702,Singapore,Singapore,+65,.sg,SGD,Q334
+SX,SXM,534,Sint Maarten,Philipsburg,+1721,.sx,XCG,Q26273
+SK,SVK,703,Slovakia,Bratislava,+421,.sk,EUR,Q214
+SI,SVN,705,Slovenia,Ljubljana,+386,.si,EUR,Q215
+SB,SLB,090,Solomon Islands,Honiara,+677,.sb,SBD,Q685
+SO,SOM,706,Somalia,Mogadishu,+252,.so,SOS,Q1045
+ZA,ZAF,710,South Africa,Cape Town,+27,.za,ZAR,Q258
+GS,SGS,239,South Georgia and the South Sandwich Islands,King Edward Point,+500,.gs,GBP,Q35086
+KR,KOR,410,South Korea,Seoul,+82,.kr .한국,KRW,Q884
+SS,SSD,728,South Sudan,Juba,+211,.ss,SSP,Q958
+ES,ESP,724,Spain,Madrid,+34,.es,EUR,Q29
+LK,LKA,144,Sri Lanka,Colombo,+94,.lk .இலங்கை,LKR,Q854
+SD,SDN,729,Sudan,Khartoum,+249,.sd,SDG,Q1049
+SR,SUR,740,Suriname,Paramaribo,+597,.sr,SRD,Q730
+SJ,SJM,744,Svalbard and Jan Mayen,,,.sj,NOK,Q842829
+SE,SWE,752,Sweden,Stockholm,+46,.se,SEK,Q34
+CH,CHE,756,Switzerland,Bern,+41,.ch .swiss,CHF,Q39
+SY,SYR,760,Syria,Damascus,+963,.sy,SYP,Q858
+ST,STP,678,São Tomé and Príncipe,São Tomé,+239,.st,STN,Q1039
+TW,TWN,158,Taiwan,Taipei,+886,.tw,TWD,Q865
+TJ,TJK,762,Tajikistan,Dushanbe,+992,.tj,TJS,Q863
+TZ,TZA,834,Tanzania,Dodoma,+255,.tz,TZS,Q924
+TH,THA,764,Thailand,Bangkok,+66,.th,THB,Q869
+BS,BHS,044,The Bahamas,Nassau,+1242,.bs,BSD,Q778
+GM,GMB,270,The Gambia,Banjul,+220,.gm,GMD,Q1005
+TL,TLS,626,Timor-Leste,Dili,+670,.tl,USD,Q574
+TG,TGO,768,Togo,Lomé,+228,.tg,XOF,Q945
+TK,TKL,772,Tokelau,,+690,.tk,NZD,Q36823
+TO,TON,776,Tonga,Nukuʻalofa,+676,.to,TOP,Q678
+TT,TTO,780,Trinidad and Tobago,Port of Spain,+1868,.tt,TTD,Q754
+TN,TUN,788,Tunisia,Tunis,+216,.tn,TND,Q948
+TR,TUR,792,Turkey,Ankara,+90,.tr,TRY,Q43
+TM,TKM,795,Turkmenistan,Ashgabat,+993,.tm,TMT,Q874
+TC,TCA,796,Turks and Caicos Islands,Cockburn Town,+1649,.tc,USD,Q18221
+TV,TUV,798,Tuvalu,Funafuti,+688,.tv,AUD,Q672
+UG,UGA,800,Uganda,Kampala,+256,.ug,UGX,Q1036
+UA,UKR,804,Ukraine,Kyiv,+380,.ua,UAH,Q212
+AE,ARE,784,United Arab Emirates,Abu Dhabi,+971,.ae .امارات,AED,Q878
+GB,GBR,826,United Kingdom,London,+44,.uk,GBP,Q145
+US,USA,840,United States,"Washington, D.C.",+1,.us,USD,Q30
+UM,UMI,581,United States Minor Outlying Islands,,,,USD,Q16645
+VI,VIR,850,United States Virgin Islands,Charlotte Amalie,+1340,.vi,USD,Q11703
+UY,URY,858,Uruguay,Montevideo,+598,.uy,UYU,Q77
+UZ,UZB,860,Uzbekistan,Tashkent,+998,.uz,UZS,Q265
+VU,VUT,548,Vanuatu,Port Vila,+678,.vu,VUV,Q686
+VA,VAT,336,Vatican City,Vatican City,+379,.va,EUR,Q237
+VE,VEN,862,Venezuela,Caracas,+58,.ve,VES,Q717
+VN,VNM,704,Vietnam,Hanoi,+84,.vn,VND,Q881
+WF,WLF,876,Wallis and Futuna,Mata-Utu,+681,.wf,XPF,Q35555
+EH,ESH,732,Western Sahara,,+212,,MAD,Q6250
+YE,YEM,887,Yemen,Sanaa,+967,.ye,YER,Q805
+ZM,ZMB,894,Zambia,Lusaka,+260,.zm,ZMW,Q953
+ZW,ZWE,716,Zimbabwe,Harare,+263,.zw,AUD CNY EUR GBP INR JPY USD ZAR ZWD ZWG ZWL ZWN ZWR,Q954
+AX,ALA,248,Åland,Mariehamn,,.ax,EUR,Q5689
