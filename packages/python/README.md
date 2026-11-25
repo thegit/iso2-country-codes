@@ -1,9 +1,9 @@
-# iso2
+# iso2-country-codes
 
 ISO 3166 country codes — alpha-2, alpha-3 and numeric — plus ISO 3166-2 subdivision codes, bundled for offline use. No dependencies. Data refreshed weekly from [iso2.com](https://iso2.com).
 
 ```sh
-pip install iso2
+pip install iso2-country-codes   # then: import iso2
 ```
 
 ```python

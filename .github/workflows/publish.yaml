@@ -2,11 +2,11 @@ name: Publish packages
 
 # Push a tag like v2026.11.25 to publish both packages with that version.
 # One-time setup (no tokens stored):
-#   npm:  npmjs.com -> package "iso2" -> Settings -> Trusted publishing ->
-#         GitHub Actions, repo thegit/iso2-country-codes, workflow publish.yml
+#   npm:  npmjs.com -> package "iso2-country-codes" -> Settings -> Trusted publishing ->
+#         GitHub Actions, repo thegit/iso2-country-codes, workflow publish.yaml
 #         (for the very first publish, add an NPM_TOKEN secret, then remove it)
 #   PyPI: pypi.org -> Publishing -> Add a pending publisher ->
-#         project "iso2", repo thegit/iso2-country-codes, workflow publish.yml,
+#         project "iso2-country-codes", repo thegit/iso2-country-codes, workflow publish.yaml,
 #         environment "pypi"
 
 on:

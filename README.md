@@ -16,17 +16,17 @@ Browse and search: **[iso2.com](https://iso2.com)** · Free JSON API: **[iso2.co
 Offline lookups with the data bundled, no dependencies:
 
 ```sh
-npm install iso2      # JavaScript / TypeScript
-pip install iso2      # Python
+npm install iso2-country-codes   # JavaScript / TypeScript
+pip install iso2-country-codes   # Python
 ```
 
 ```js
-import { lookup } from "iso2";
+import { lookup } from "iso2-country-codes";
 lookup("GBR").a2;   // "GB"
 ```
 
 ```python
-import iso2
+import iso2   # pip package: iso2-country-codes
 iso2.to_alpha3("FR")   # 'FRA'
 ```
 

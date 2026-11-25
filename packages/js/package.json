@@ -1,5 +1,5 @@
 {
-  "name": "iso2",
+  "name": "iso2-country-codes",
   "version": "0.0.0",
   "description": "ISO 3166 country codes (alpha-2, alpha-3, numeric) and ISO 3166-2 subdivisions, bundled offline. Refreshed weekly from iso2.com.",
   "type": "module",
@@ -11,9 +11,25 @@
       "default": "./index.js"
     }
   },
-  "files": ["index.js", "index.d.ts", "data.js", "README.md"],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "data.js",
+    "README.md"
+  ],
   "sideEffects": false,
-  "keywords": ["iso3166", "iso-3166", "country-codes", "alpha-2", "alpha-3", "country", "subdivisions", "iso-3166-2", "currency", "dialling-codes"],
+  "keywords": [
+    "iso3166",
+    "iso-3166",
+    "country-codes",
+    "alpha-2",
+    "alpha-3",
+    "country",
+    "subdivisions",
+    "iso-3166-2",
+    "currency",
+    "dialling-codes"
+  ],
   "homepage": "https://iso2.com",
   "repository": {
     "type": "git",
@@ -22,5 +38,7 @@
   },
   "bugs": "https://github.com/thegit/iso2-country-codes/issues",
   "license": "MIT",
-  "engines": { "node": ">=14" }
+  "engines": {
+    "node": ">=14"
+  }
 }
