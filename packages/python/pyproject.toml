@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "iso2"
+version = "0.0.0"
+description = "ISO 3166 country codes (alpha-2, alpha-3, numeric) and ISO 3166-2 subdivisions, bundled offline. Refreshed weekly from iso2.com."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+keywords = ["iso3166", "iso-3166", "country codes", "alpha-2", "alpha-3", "subdivisions", "iso-3166-2"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://iso2.com"
+Source = "https://github.com/thegit/iso2-country-codes"
+Issues = "https://github.com/thegit/iso2-country-codes/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/iso2"]

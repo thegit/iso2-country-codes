@@ -1,0 +1,93 @@
+name: Publish packages
+
+# Push a tag like v2026.11.25 to publish both packages with that version.
+# One-time setup (no tokens stored):
+#   npm:  npmjs.com -> package "iso2" -> Settings -> Trusted publishing ->
+#         GitHub Actions, repo thegit/iso2-country-codes, workflow publish.yml
+#         (for the very first publish, add an NPM_TOKEN secret, then remove it)
+#   PyPI: pypi.org -> Publishing -> Add a pending publisher ->
+#         project "iso2", repo thegit/iso2-country-codes, workflow publish.yml,
+#         environment "pypi"
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/sync.py
+      - id: v
+        run: |
+          V="${GITHUB_REF_NAME#v}"
+          [ "$GITHUB_REF_TYPE" = tag ] || V="$(date -u +%Y.%-m.%-d)"
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+      - name: Stamp versions
+        run: |
+          python - <<'PY'
+          import json, re, os
+          v = os.environ["V"]
+          p = "packages/js/package.json"
+          d = json.load(open(p)); d["version"] = v
+          json.dump(d, open(p, "w"), indent=2); open(p, "a").write("\n")
+          p = "packages/python/pyproject.toml"
+          s = open(p).read()
+          s = re.sub(r'^version = ".*"$', f'version = "{v}"', s, flags=re.M)
+          open(p, "w").write(s)
+          PY
+        env:
+          V: ${{ steps.v.outputs.version }}
+      - name: Test Python package
+        run: |
+          pip install ./packages/python
+          python -c "import iso2; assert iso2.lookup('GB')['a3']=='GBR'; assert iso2.lookup(826)['a2']=='GB'; print('ok')"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test JS package
+        working-directory: packages/js
+        run: node -e "import('./index.js').then(m=>{if(m.lookup('gbr').a2!=='GB')process.exit(1);console.log('ok')})"
+      - name: Build Python dist
+        run: pip install build && python -m build packages/python --outdir dist
+      - uses: actions/upload-artifact@v4
+        with: { name: dist, path: dist }
+      - uses: actions/upload-artifact@v4
+        with: { name: js, path: packages/js }
+
+  npm:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: js, path: js }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+      - run: npm install -g npm@latest
+      - working-directory: js
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  pypi:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist }
+      - uses: pypa/gh-action-pypi-publish@release/v1
