@@ -20,7 +20,7 @@ jobs:
         run: python scripts/sync.py
       - name: Commit if changed
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes"; exit 0
           fi
           git config user.name "iso2-sync"
